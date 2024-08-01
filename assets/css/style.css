@@ -13,3 +13,119 @@
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-image: url(../img/sfondo.png);
+  background-position: center;
+  font-family: Poppins, sans-serif;
+}
+header {
+  background-color: #4397b7;
+  padding: 30px 30px 30px 30px;
+  text-align: center;
+  margin-inline: 10px;
+  margin-block: 10px;
+  box-shadow: 0 3px grey;
+}
+header div img {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+header div p {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+  padding: 70px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-size: 10px;
+}
+main {
+  background-color: white;
+  padding: 30px 30px 30px 10px;
+  text-align: center;
+  margin-inline: 10px;
+  margin-block: 10px;
+  box-shadow: 0 3px grey;
+}
+article div h4 {
+  text-align: left;
+  font-weight: bold;
+  margin-left: 0px;
+  font-size: 25px;
+  word-spacing: 3px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+article div h4 + p {
+  font-size: 10px;
+  color: grey;
+  margin-bottom: 30px;
+}
+.articlediv {
+  margin-left: 0px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  line-height: 20px;
+  text-align: left;
+}
+span {
+  color: #b4247f;
+}
+caption {
+  font-style: italic;
+  font-weight: bold;
+}
+table {
+  border-bottom: solid 1px;
+  border-bottom-color: #4569c2;
+}
+table thead {
+  background-color: #4569c2;
+  border: 1px solid;
+  height: 150;
+}
+table tbody {
+  margin-bottom: 15px;
+}
+table tbody tR:nth-of-type(2n) {
+  background-color: rgb(189, 187, 187);
+}
+p a {
+  color: #24bcf8;
+}
+.linkArt {
+  color: #24bcf8;
+  text-decoration: underline;
+}
+section {
+  margin-bottom: 30px;
+}
+iframe {
+  border-radius: 25px;
+}
+.form {
+  background-color: rgb(189, 187, 187);
+  padding: 10px 30px 10px 30px;
+}
+.form h4 {
+  text-transform: uppercase;
+}
+.form p {
+  text-align: left;
+}
+form {
+  text-align: left;
+}
+form input {
+  width: 100px;
+}
+form button {
+  background-color: #4569c2;
+}
