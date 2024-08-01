@@ -1,18 +1,6 @@
-/* IMPOSTAZIONI GENERALI */
-
-/* HEADER */
-
-/* MAIN */
-
-/* ELEMENTI NEL MAIN - ARTICLE */
-
-/* TABELLE */
-
-/* FORM */
-
-/* ELEMENTI NELL' ASIDE */
-
-/* FOOTER */
+/* da chiedere icone a dx vicino a data, 
+icone non si vedono
+ e come mai border tabella non riesco ad alzarlo*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
@@ -85,16 +73,17 @@ caption {
 table {
   border-bottom: solid 1px;
   border-bottom-color: #4569c2;
+  margin-bottom: 50px;
 }
 table thead {
   background-color: #4569c2;
   border: 1px solid;
   height: 150;
 }
-table tbody {
-  margin-bottom: 15px;
+.table td {
+  padding-block: 0.5rem;
 }
-table tbody tR:nth-of-type(2n) {
+table tbody tr:nth-of-type(2n) {
   background-color: rgb(189, 187, 187);
 }
 p a {
@@ -112,6 +101,7 @@ iframe {
 }
 .form {
   background-color: rgb(189, 187, 187);
+
   padding: 10px 30px 10px 30px;
 }
 .form h4 {
@@ -128,4 +118,20 @@ form input {
 }
 form button {
   background-color: #4569c2;
+}
+section h3 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.articoliC {
+  background-color: rgb(189, 187, 187);
+  margin-bottom: 30px;
+  padding: 10px 30px 10px 30px;
+  margin-inline: 10px;
+}
+
+.data {
+  text-align: right;
+  font-size: 10px;
 }
